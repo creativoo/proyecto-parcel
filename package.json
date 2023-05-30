@@ -1,13 +1,11 @@
 {
-  "homepage": "https://creativoo.github.io/proyecto-parcel",
   "name": "parcel",
   "version": "1.0.0",
-  "description": "proyecto consumiendo API Fake de platzi y empaquetado con Parcel",
+  "description": "",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel serve --port 8080 src/index.html",
     "build": "parcel build src/index.html --public-url ./",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [],
@@ -15,7 +13,7 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "parcel": "^2.9.1",
+    "parcel": "^2.6.1",
     "posthtml-include": "^1.7.4"
   }
 }
