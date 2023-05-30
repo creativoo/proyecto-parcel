@@ -1,5 +1,5 @@
 {
-  "homepage":"https://creativoo.github.io/proyecto-parcel",
+  "homepage": "https://creativoo.github.io/proyecto-parcel",
   "name": "parcel",
   "version": "1.0.0",
   "description": "proyecto consumiendo API Fake de platzi y empaquetado con Parcel",
