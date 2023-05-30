@@ -4,15 +4,16 @@
   "description": "proyecto consumiendo API Fake de platzi y empaquetado con Parcel",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel serve --port 8080 src/index.hmtl",
-    "build": "parcel build src/index.html --public-url ./"
+    "start": "parcel serve --port 8080 src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "parcel": "^2.9.1",
     "posthtml-include": "^1.7.4"
-  },
-  "main": "index.js"
+  }
 }
